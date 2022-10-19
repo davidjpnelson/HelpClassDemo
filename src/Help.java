@@ -62,10 +62,7 @@ public class Help {
   }
 
   boolean isValid(int ch) {
-    if (ch < '1' | ch > '7' & ch != 'q') {
-      return true;
-    } else
-      return false;
+    return ch < '1' | ch > '7' & ch != 'q';
   }
 }
 
